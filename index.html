@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webby - Learn FrontEnd Web Development</title>
+    <link rel="stylesheet" href="/styling.css"/>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="/logo.jpg" alt="logo"></div>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Easiest Way to FrontEnd Development</p>
+                <p class="text-small">Learn FrontEnd Web Development in Easiest way
+                    by Learning Html CSS and Javascript</p>
+                <div class="button">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>    
+            </div>
+            <div class="secondHalf">
+                <img src="/logo.jpg" alt="logo Image">
+            </div>
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">HyperText Markup Language (Html)</p>
+        <p class="sectionSubTag text-small">&emsp;The HyperText Markup Language, or 
+            HTML is the standard markup language for 
+            documents designed to be displayed in a web browser. 
+            It can be assisted by technologies 
+            such as Cascading Style Sheets and scripting languages such as JavaScript. 
+              </p>
+            </div>
+              <div class="thumbnail">
+                  <img src="/html.jpg" alt="html image" class="imgFluid">
+              </div>
+    </section>
+
+    <section class="section section-Left">
+        <div class="paras">
+        <p class="sectionTag text-big">Cascading Style Sheets (CSS)</p>
+        <p class="sectionSubTag text-small">Cascading Style Sheets is a style sheet language used 
+            for describing the presentation of a document written in a markup language such as 
+            HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. 
+              </p>
+            </div>
+              <div class="thumbnail">
+                  <img src="/CSS.jpg" alt="css image" class="imgFluid">
+              </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">JavaScript (JS)</p>
+        <p class="sectionSubTag text-small">JavaScript, often abbreviated as JS, is a programming language 
+            that conforms to the ECMAScript specification. JavaScript is high-level, 
+            often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, 
+            dynamic typing, prototype-based object-orientation, and first-class functions. 
+              </p>
+            </div>
+              <div class="thumbnail">
+                  <img src="/javascript.jpg" alt="javascript image" class="imgFluid">
+              </div>
+    </section>
+    <hr>
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="name" placeholder="Enter Your phone">
+            <input class="form-input" type="text" name="email" id="name" placeholder="Enter Your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background" id="about">
+        <p class="text-footer">
+        Copyright &copy; 2021 www.iWebsite.com - All rights reserved
+        </p> 
+    </footer>
+    <script src="/resp.js"></script>
+</body>
+</html>
